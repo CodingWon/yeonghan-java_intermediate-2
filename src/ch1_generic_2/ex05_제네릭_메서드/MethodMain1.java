@@ -7,8 +7,8 @@ public class MethodMain1 {
 
         // 타입 인자 (Type Argument) 명시적 전달
         System.out.println("명시적 타입 인자 전달");
-        Integer result = GenericMethod.<Integer>genericMethod(i);
-        Integer integerValue = GenericMethod.<Integer>numberMethod(10);
-        Double doubleValue = GenericMethod.<Double>numberMethod(20.0);
+        Integer result = GenericMethod.genericMethod(i);
+        Integer integerValue = GenericMethod.numberMethod(10);
+        Double doubleValue = GenericMethod.numberMethod(20.0);
     }
 }
